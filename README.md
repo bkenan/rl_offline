@@ -48,7 +48,7 @@ $ pip install d3rlpy
    * True Q values vs training steps: `d3rlpy_logs/CQL_hopper-bullet-mixed-v0_1/true_q_value.csv`
    * Estimated Q values vs training steps: `d3rlpy_logs/CQL_hopper-bullet-mixed-v0_1/init_value.csv`
    
-### My Colab notebook: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cof3Cyk7FTam3q4IkRhgHO2GpKYEXfzn?usp=sharing) 
+### My Colab notebook provides details abour execution: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cof3Cyk7FTam3q4IkRhgHO2GpKYEXfzn?usp=sharing) 
 
 
 ### d3rlpy: An offline deep reinforcement learning library
