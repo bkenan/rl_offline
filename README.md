@@ -33,7 +33,7 @@ evaluate the trained policy. `cql.py` at the root of the project is the main scr
 
 ### The steps for installation:
 
-1. Install d3rlpy
+1. Install d3rlpy <br />
 [![PyPI version](https://badge.fury.io/py/d3rlpy.svg)](https://badge.fury.io/py/d3rlpy)
 ![PyPI - Downloads](https://img.shields.io/pypi/dm/d3rlpy)
 ```
