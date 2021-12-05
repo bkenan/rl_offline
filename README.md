@@ -5,10 +5,50 @@ Hello! This is a repository for building  a pipeline for offline RL.
 The starter code repo has been provided by [d3rlpy](https://github.com/takuseno/d3rlpy) 
 
 
-# Getting Started 
+## Brief blog about Reinforcement Learning to address the following questions:
+
+1. What is reinforcement learning?
+
+2. What are the pros and cons of reinforcement learning?
+
+3. When should we consider applying reinforcement learning (and when should not)?
+
+4. What's the difference between supervised learning and reinforcement learning?
+
+5. What is offline reinforcement learning?
+
+6. What are the pros and cons of offline reinforcement learning?
+
+7. When should we consider applying offline reinforcement learning (and when should not)?
+
+8. Have an example of offline reinforcement learning in the real-world?
+
+The link: [Reinforcement Learning basics](https://medium.com/@kanan.bk/reinforcement-learning-basics-f90b1a2fd3c8) 
+
+
+## Getting Started 
 
 This project is customized to training CQL on a custom dataset in d3rlpy, and training OPE (FQE) to 
-evaluate the trained policy. `cql.py` at the root of the project is the main script. 
+evaluate the trained policy. `cql.py` at the root of the project is the main script. The Default dataset is `hopper-bullet-mixed-v0`
+
+### The steps for installation:
+
+1. Install d3rlpy
+[![PyPI version](https://badge.fury.io/py/d3rlpy.svg)](https://badge.fury.io/py/d3rlpy)
+![PyPI - Downloads](https://img.shields.io/pypi/dm/d3rlpy)
+```
+$ pip install d3rlpy
+```
+2. Clone this repo: `git clone https://github.com/bkenan/rl_offline.git`
+3. Install **pybullet** from source: `pip install git+https://github.com/takuseno/d4rl-pybullet`
+4. Install requirements: `pip install Cython numpy` & `pip install -e`
+5. Execute **`cql.py`** 
+6. **The Logs:**
+   * Average reward vs training steps: `d3rlpy_logs/CQL_hopper-bullet-mixed-v0_1/environment.csv`
+   * True Q values vs training steps: `d3rlpy_logs/CQL_hopper-bullet-mixed-v0_1/true_q_value.csv`
+   * Estimated Q values vs training steps: `d3rlpy_logs/CQL_hopper-bullet-mixed-v0_1/init_value.csv`
+   
+### My Colab notebook: [![Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1cof3Cyk7FTam3q4IkRhgHO2GpKYEXfzn?usp=sharing) 
 
 
 ### d3rlpy: An offline deep reinforcement learning library
